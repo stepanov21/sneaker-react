@@ -16,6 +16,7 @@ body {
   background: #E7F6FF;
 }
 .App {
+  position: static;
   max-width: 1120px;
   width: 100%;
   padding: 0 60px;
@@ -24,6 +25,7 @@ body {
   border-radius: 20px;
   margin-top: 85px;
   height: 100vh;
+  
 }
 header {
   .header__wrapper {

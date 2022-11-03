@@ -1,5 +1,6 @@
 import React from "react";
 import header_img from "./assets/image4.png";
+import Aside from "./components/aside/Aside";
 import Card from "./components/card/Card";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         </div>
       </header>
       <Card/>
+      <Aside/>
     </div>
   );
 }
