@@ -1,0 +1,54 @@
+
+.card {
+  padding: 20px 30px 35px;
+  border: 1px solid #F3F3F3;
+  border-radius: 40px;
+  width: 210px;
+}
+
+.card__container {
+  max-width: 150px;
+  .card__img {
+
+  }
+  .card__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+  }
+  .price__item {
+    display: flex;
+    flex-direction: column;
+    .price__text {
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 13px;
+      text-transform: uppercase;
+
+      color: #BDBDBD;
+    }
+    .price__num {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 2px;
+    }
+  }
+  .price__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+  }
+}
